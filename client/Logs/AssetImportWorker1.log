@@ -15,7 +15,7 @@ D:/Projects/slash-ninja/client
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52993
+49170
 Successfully changed project path to: D:/Projects/slash-ninja/client
 D:/Projects/slash-ninja/client
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Projects/slash-ninja/client
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18320] Host "[IP] 192.168.5.164 [Port] 0 [Flags] 2 [Guid] 2132774210 [EditorId] 2132774210 [Version] 1048832 [Id] WindowsEditor(7,Martin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3932] Host "[IP] 192.168.5.164 [Port] 0 [Flags] 2 [Guid] 2000339253 [EditorId] 2000339253 [Version] 1048832 [Id] WindowsEditor(7,Martin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18320] Host "[IP] 192.168.5.164 [Port] 0 [Flags] 2 [Guid] 2132774210 [EditorId] 2132774210 [Version] 1048832 [Id] WindowsEditor(7,Martin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3932] Host "[IP] 192.168.5.164 [Port] 0 [Flags] 2 [Guid] 2000339253 [EditorId] 2000339253 [Version] 1048832 [Id] WindowsEditor(7,Martin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 73.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 74.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Unity Hub/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Unity Hub/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Unity Hub/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Unity Hub/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005200 seconds.
+Registered in 0.001370 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 71.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
+- Completed reload, in  0.476 seconds
 Domain Reload Profiling:
-	ReloadAssembly (641ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (476ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (382ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (351ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (76ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (221ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003035 seconds.
+Registered in 0.002906 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 71.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (802ms)
+	ReloadAssembly (798ms)
 		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
+			CreateAndSetChildDomain (19ms)
 		EndReloadAssembly (635ms)
-			LoadAssemblies (63ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (333ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,180 +147,9 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3762 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.3 KB). Loaded Objects now: 4221.
-Memory consumption went from 145.3 MB to 145.2 MB.
-Total: 3.506400 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.098600 ms MarkObjects: 3.041500 ms  DeleteObjects: 0.076600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002681 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4224.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 3.015700 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.173700 ms MarkObjects: 2.606700 ms  DeleteObjects: 0.024400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003069 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
-Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4227.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 3.164900 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.608600 ms  DeleteObjects: 0.023500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003109 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Domain Reload Profiling:
-	ReloadAssembly (807ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4230.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 2.982700 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.206300 ms MarkObjects: 2.401700 ms  DeleteObjects: 0.021000 ms)
+Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4225.
+Memory consumption went from 145.8 MB to 145.7 MB.
+Total: 2.700000 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.228800 ms  DeleteObjects: 0.079900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -335,496 +164,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3458.418690 seconds.
-  path: Assets/Background/wallpaperflare.com_wallpaper.jpg
-  artifactKey: Guid(eef50b2605e3417459290ad6f533adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/wallpaperflare.com_wallpaper.jpg using Guid(eef50b2605e3417459290ad6f533adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828101f4b30b92160cc0805e3c54c399') in 0.239524 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002856 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Domain Reload Profiling:
-	ReloadAssembly (803ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (282ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4240.
-Memory consumption went from 147.2 MB to 147.2 MB.
-Total: 3.302200 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.860600 ms  DeleteObjects: 0.033000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004908 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
-Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (229ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4243.
-Memory consumption went from 147.2 MB to 147.2 MB.
-Total: 2.842200 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.183200 ms MarkObjects: 2.375600 ms  DeleteObjects: 0.037600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003452 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
-Domain Reload Profiling:
-	ReloadAssembly (797ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (614ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.76 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4246.
-Memory consumption went from 147.2 MB to 147.2 MB.
-Total: 2.686100 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.344900 ms  DeleteObjects: 0.022600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 12670.141464 seconds.
+  path: Assets/Background/Materials
+  artifactKey: Guid(dc37d5f33a1f8714c907745ca9432ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials using Guid(dc37d5f33a1f8714c907745ca9432ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41683708438b8d3929e090d4e68a0cb7') in 0.013261 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 386.309368 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (2).prefab
-  artifactKey: Guid(0e280cd4ce521994eb618b6731c6a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (2).prefab using Guid(0e280cd4ce521994eb618b6731c6a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb97a7744125f14bf5029941f8836759') in 0.219974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (11).prefab
-  artifactKey: Guid(d21efaa207e26914794fa3e010b7c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (11).prefab using Guid(d21efaa207e26914794fa3e010b7c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44971e5cc26e01437fe5e04fe0e1ba5') in 0.090336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (20).prefab
-  artifactKey: Guid(e4e21487c6e95fa47bf05ec3820ff093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (20).prefab using Guid(e4e21487c6e95fa47bf05ec3820ff093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68e9cd8533fb2bcd408e2e1b6ae212c') in 0.063884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (30).prefab
-  artifactKey: Guid(9f38cf9e63e10334a940839f33aaecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (30).prefab using Guid(9f38cf9e63e10334a940839f33aaecc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65570d2cb4281e62001f65ba7c4ba0b') in 0.512545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (51).prefab
-  artifactKey: Guid(7661e6f100a621140b411ebb597bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (51).prefab using Guid(7661e6f100a621140b411ebb597bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0846cf53b33966661e2b35917196ff78') in 0.396199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (53).prefab
-  artifactKey: Guid(108c51af55bb592499f571c46a6355f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (53).prefab using Guid(108c51af55bb592499f571c46a6355f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e41f9edf6d4fd385c6c72a4594f1705') in 0.101229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (69).prefab
-  artifactKey: Guid(20b27d1883adb2247b53f1c3950a6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (69).prefab using Guid(20b27d1883adb2247b53f1c3950a6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bd6e876332333554ef9503d0c26f9a') in 0.057704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (4).prefab
-  artifactKey: Guid(8380884e642db8443af87c7857bf7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (4).prefab using Guid(8380884e642db8443af87c7857bf7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c040c956707f8971ba231f866365ff') in 0.070282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (12).prefab
-  artifactKey: Guid(da87870c43885da43b5816cfd4d5ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (12).prefab using Guid(da87870c43885da43b5816cfd4d5ec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326ce0d6278c6901be01f7bf83c871f2') in 0.072941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (45).prefab
-  artifactKey: Guid(363ba562eaf0ab34e8a242fcc39fb3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (45).prefab using Guid(363ba562eaf0ab34e8a242fcc39fb3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8e673f53d5fe86ac2f754da7ec78aa') in 0.064174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (35).prefab
-  artifactKey: Guid(39385abaa1419dd49a82630f158c9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (35).prefab using Guid(39385abaa1419dd49a82630f158c9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f403c4677e76960fcdd627ee7855fc63') in 0.267131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (37).prefab
-  artifactKey: Guid(7f870ed1a3aa0c74cbda9323878b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (37).prefab using Guid(7f870ed1a3aa0c74cbda9323878b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7e78d8c86905aa7d5995c2f0938c57') in 0.086603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (71).prefab
-  artifactKey: Guid(c6cab51adfe6094498f6aca1862b0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (71).prefab using Guid(c6cab51adfe6094498f6aca1862b0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d2b350eac9b0b096a1a85f565dfb9') in 0.062224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (74).prefab
-  artifactKey: Guid(48933110da450ee41b6459f9294b78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (74).prefab using Guid(48933110da450ee41b6459f9294b78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cd5f6547f1de2ea9eaa17e105436f3') in 0.058352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (78).prefab
-  artifactKey: Guid(595e2ba8c6a57f94c91c8f2aa070166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (78).prefab using Guid(595e2ba8c6a57f94c91c8f2aa070166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae0a3f8d0a1b533d1fac623723b4ab3') in 0.057842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (65).prefab
-  artifactKey: Guid(9eedc5bd4fe9e6e4bb5259511f3f8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (65).prefab using Guid(9eedc5bd4fe9e6e4bb5259511f3f8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99570ba8f8fc4b66ee54566fa02888') in 0.069200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (86).prefab
-  artifactKey: Guid(7af19914b4565cc4e9335e4f4901e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (86).prefab using Guid(7af19914b4565cc4e9335e4f4901e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3305c41d81558f75433014b9ca89b2') in 0.128912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (73).prefab
-  artifactKey: Guid(c4891a7926408854b87f725feb08782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (73).prefab using Guid(c4891a7926408854b87f725feb08782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd25487ff5892d7f0dfd23f4edb0a8e') in 0.071599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (61).prefab
-  artifactKey: Guid(97f7f6d797702e64db4f59f996b97f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (61).prefab using Guid(97f7f6d797702e64db4f59f996b97f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364ed69b7b1162832ece3365dfd617c5') in 0.064749 seconds 
+  Time since last request: 21.059996 seconds.
+  path: Assets/Enemy Sprites/Dummy/Animation/Dude_Monster_Hurt_4.png
+  artifactKey: Guid(fc15452f1524afa408fb2cbabd38a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy Sprites/Dummy/Animation/Dude_Monster_Hurt_4.png using Guid(fc15452f1524afa408fb2cbabd38a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00edb0843bcbb6127fd96f9ceefcf836') in 0.146844 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (82).prefab
-  artifactKey: Guid(d58a714be4d79244685ad402c0f7401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (82).prefab using Guid(d58a714be4d79244685ad402c0f7401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbf1c8077f4fba0740b936a601bdd6d') in 0.059969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (13).prefab
-  artifactKey: Guid(eed26d9bbfc4c97498e43126828eb2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (13).prefab using Guid(eed26d9bbfc4c97498e43126828eb2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b08e3b495922f50acff3a2c4e7d26f') in 0.051851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (56).prefab
-  artifactKey: Guid(f4d369ba099821a41a7e353da8adbb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (56).prefab using Guid(f4d369ba099821a41a7e353da8adbb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebedc3246317b66cd2feb21ac8599242') in 0.062181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (44).prefab
-  artifactKey: Guid(75433554313639845880ecdd0398e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (44).prefab using Guid(75433554313639845880ecdd0398e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af9c2477a1ab4a8c3006c1a3c734097') in 0.054458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (39).prefab
-  artifactKey: Guid(d3992a94349c31542955b8482f5ed304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (39).prefab using Guid(d3992a94349c31542955b8482f5ed304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42908db45c7e9864cd6bc9631e9e18e3') in 0.104426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (66).prefab
-  artifactKey: Guid(75d7cc2e31209bf47a742f25bd96146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (66).prefab using Guid(75d7cc2e31209bf47a742f25bd96146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad95bd08874d1d880353cbe0449d106') in 0.064688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (79).prefab
-  artifactKey: Guid(d1017599b656a27409b59197d065f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (79).prefab using Guid(d1017599b656a27409b59197d065f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff22ffae5717c0ae94d2004d05f36e0f') in 0.062983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (75).prefab
-  artifactKey: Guid(14a5fab228cddae4ca51bab673ddf8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (75).prefab using Guid(14a5fab228cddae4ca51bab673ddf8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80679d69511b39de09bc48d1c43d8639') in 0.060680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (83).prefab
-  artifactKey: Guid(1c3a24296a9515b45a93c356781e9da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (83).prefab using Guid(1c3a24296a9515b45a93c356781e9da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d3b41c209af9265a1c1a0322f67e8e') in 0.093851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (46).prefab
-  artifactKey: Guid(5cfc4e27acf5ffa4e8acd372e005f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (46).prefab using Guid(5cfc4e27acf5ffa4e8acd372e005f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f5e1fa2fc6a3aa03066bac9c41872c') in 0.059333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (31).prefab
-  artifactKey: Guid(b6665c1d1459a9648b89cb38e5090a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (31).prefab using Guid(b6665c1d1459a9648b89cb38e5090a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399ee4e92268fc7434e20a07c52bec1') in 0.067092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (62).prefab
-  artifactKey: Guid(f4a032b5d6fd07740913b99389b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (62).prefab using Guid(f4a032b5d6fd07740913b99389b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4794222c24f2a0d25304c195bab4f04a') in 0.155123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (48).prefab
-  artifactKey: Guid(d4fa6dbffce76d14e9e8d0125f41a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (48).prefab using Guid(d4fa6dbffce76d14e9e8d0125f41a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded075f8c4ee0bf47fc8cd433d3dcdd5') in 0.053599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (85).prefab
-  artifactKey: Guid(a0ffb166766504e48a502f90d5effb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (85).prefab using Guid(a0ffb166766504e48a502f90d5effb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37addca2ff74e00b1529b0ab3262fd60') in 0.067749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (36).prefab
-  artifactKey: Guid(5316090c50cf9cb498514e733e8542b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (36).prefab using Guid(5316090c50cf9cb498514e733e8542b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f0691d46c7c22fee1299189ce9cabf') in 0.069368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (54).prefab
-  artifactKey: Guid(c8b6235ca60803e4e91de6806a1adb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (54).prefab using Guid(c8b6235ca60803e4e91de6806a1adb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc158b6ba26b69d5eeebeadad7354e95') in 0.064408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (3).prefab
-  artifactKey: Guid(2193cfa0c41207e4399c5aa3be1aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (3).prefab using Guid(2193cfa0c41207e4399c5aa3be1aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4ca2d6545da9d598cbb713a0ae3f21') in 0.058351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (38).prefab
-  artifactKey: Guid(f711d69cc0ee1aa4dac239e5ab4e3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (38).prefab using Guid(f711d69cc0ee1aa4dac239e5ab4e3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a945856eebca99a70cea058b82a58a8b') in 0.063857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (23).prefab
-  artifactKey: Guid(48c5a8cc8559e0744a87a88cf09387fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (23).prefab using Guid(48c5a8cc8559e0744a87a88cf09387fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120950795170abf585a107d918bf5ec7') in 0.058653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.495517 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (89).prefab
-  artifactKey: Guid(499378fa1b3325f418a4969b1fc6506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (89).prefab using Guid(499378fa1b3325f418a4969b1fc6506a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7547d4019c2db3401a894b8169e9fde1') in 0.196763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (92).prefab
-  artifactKey: Guid(38d1b8d56cd9d64438e48e07a5870cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (92).prefab using Guid(38d1b8d56cd9d64438e48e07a5870cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea52ac986fc81af99cda1abd40b0b7b') in 0.072528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (95).prefab
-  artifactKey: Guid(5f5faae7cc322914d8efc12de3d191ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (95).prefab using Guid(5f5faae7cc322914d8efc12de3d191ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7232863da62e447b0d43d4276952cae2') in 0.070232 seconds 
+  path: Assets/Enemy Sprites/Dummy/Animation/Rock1.png
+  artifactKey: Guid(4d834f5ea7e0b4e4c89a7f2263354d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy Sprites/Dummy/Animation/Rock1.png using Guid(4d834f5ea7e0b4e4c89a7f2263354d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ac4a54045a36f48b62830081b5573b') in 0.030452 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (99).prefab
-  artifactKey: Guid(5d1ab9b0228d05a40832b62ab4035c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (99).prefab using Guid(5d1ab9b0228d05a40832b62ab4035c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430d273963db07080505d9e52625383') in 0.059096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (97).prefab
-  artifactKey: Guid(13113bd87a3e8004c942e8082089cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (97).prefab using Guid(13113bd87a3e8004c942e8082089cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1160971de9cf18630439778faa210fb3') in 0.053069 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002947 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Projects\slash-ninja\client\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
-Domain Reload Profiling:
-	ReloadAssembly (861ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (672ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4254.
-Memory consumption went from 147.6 MB to 147.6 MB.
-Total: 2.952200 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.219300 ms MarkObjects: 2.458700 ms  DeleteObjects: 0.025200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Enemy Sprites/Dummy/Animation/Dude_Monster_Throw_4.png
+  artifactKey: Guid(90deee57cda495843bc18b8071b75a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy Sprites/Dummy/Animation/Dude_Monster_Throw_4.png using Guid(90deee57cda495843bc18b8071b75a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2368f27600674e398a1812e39cf87e09') in 0.041380 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
