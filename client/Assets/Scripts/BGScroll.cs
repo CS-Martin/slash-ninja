@@ -26,6 +26,4 @@ public class BGScroll : MonoBehaviour
             transform.position = StartPosition;
         }
     } 
-        
-    
 }

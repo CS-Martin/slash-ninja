@@ -21,8 +21,5 @@ public class enemyAttack : MonoBehaviour
             if(passedTime < attackDelay){
                 passedTime += Time.deltaTime;
             }
-        
-        
-        
     }
 }

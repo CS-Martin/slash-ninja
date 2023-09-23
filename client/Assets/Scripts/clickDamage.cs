@@ -10,5 +10,4 @@ public class clickDamage : MonoBehaviour
     public void OnMouseDown(){
         FindObjectOfType<EnemyHealth>().takeDamage(damage);
     }
-
 }
