@@ -1456,9 +1456,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2089532139}
   - component: {fileID: 2089532138}
-  - component: {fileID: 2089532140}
-  - component: {fileID: 2089532141}
   - component: {fileID: 2089532142}
+  - component: {fileID: 2089532143}
   m_Layer: 6
   m_Name: White Crosshair
   m_TagString: Untagged
@@ -1525,7 +1524,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089532137}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 395, y: 204, z: -35}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1533,32 +1532,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2089532140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089532137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8232350898c98fd4a8c1091b55d69eae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2089532141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089532137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7425bf74681c21498fb0188fd980073, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 4418124960249987833, guid: 525dc34aeca9a744b9d93e57b4acd8ca, type: 3}
-  audioSource: {fileID: 0}
 --- !u!82 &2089532142
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1655,6 +1628,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2089532143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089532137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0a18082288b41439187af81dddb126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 4418124960249987833, guid: 525dc34aeca9a744b9d93e57b4acd8ca, type: 3}
+  audioSource: {fileID: 0}
 --- !u!1 &2106041092
 GameObject:
   m_ObjectHideFlags: 0
