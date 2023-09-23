@@ -22,7 +22,7 @@ public class BGScroll : MonoBehaviour
         transform.Translate(Vector3.left * speed * Time.deltaTime); 
         
         /// <Note> If BG reaches -1444.24 on x-axis, then repeat from starting position
-        if (transform.position.x < -545f) {
+        if (transform.position.x < -980f) {
             transform.position = StartPosition;
         }
     } 
