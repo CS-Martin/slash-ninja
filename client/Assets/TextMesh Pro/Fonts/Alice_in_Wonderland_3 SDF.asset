@@ -70,9 +70,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -164,9 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Alice_in_Wonderland_3 SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -98982054
   material: {fileID: -6285787246180900886}
-  materialHashCode: 0
+  materialHashCode: 2065481274
   m_Version: 1.1.0
   m_SourceFontFileGUID: fa7211e6dcb6cdd4c876c7c441f45cfc
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: fa7211e6dcb6cdd4c876c7c441f45cfc, type: 3}

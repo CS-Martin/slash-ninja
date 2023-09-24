@@ -92,7 +92,6 @@ public class EnemyBehavior : MonoBehaviour
 
     }
     public void OnMouseDown(){
-       
         takeDamage(damage);
     }
 
