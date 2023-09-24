@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class OverlayController : MonoBehaviour
 {
-     public GameObject overlayPanel;
+    //  public GameObject overlayPanel;
 
-    void Start()
-    {
-        // Hide the overlay panel at the start
-        HideOverlay();
-    }
+    // void Start()
+    // {
+    //     // Hide the overlay panel at the start
+    //     HideOverlay();
+    // }
 
 
-    public void ShowOverlay()
-    {
-        // Show the overlay panel
-        overlayPanel.SetActive(true);
-    }
+    // public void ShowOverlay()
+    // {
+    //     // Show the overlay panel
+    //     overlayPanel.SetActive(true);
+    // }
 
-    public void HideOverlay()
-    {
-        // Hide the overlay panel
-        overlayPanel.SetActive(false);
-    }
+    // public void HideOverlay()
+    // {
+    //     // Hide the overlay panel
+    //     overlayPanel.SetActive(false);
+    // }
 }
