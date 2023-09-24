@@ -84,6 +84,7 @@ public class EnemyBehavior : MonoBehaviour
         //hurt animation missing
         currentHealth -= amount;
         if(currentHealth <= 0){
+            PlayerScript.AddScore(10);
             //death animation missing
             audioSource.Play();
             isDead = true;

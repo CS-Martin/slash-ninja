@@ -68,6 +68,7 @@ public class EnemyBehavior2 : MonoBehaviour
         //hurt animation
         currentHealth -= amount;
         if(currentHealth <= 0){
+            PlayerScript.AddScore(10);
             //death animation
             Destroy(gameObject);
         }

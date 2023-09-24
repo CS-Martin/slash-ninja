@@ -39,10 +39,6 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    // public void GameOver(){
-    //     Scenemanager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    // }
-
     public void ShowOverlay()
     {
         // Show the overlay panel
