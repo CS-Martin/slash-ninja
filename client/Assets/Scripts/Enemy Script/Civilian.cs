@@ -53,6 +53,7 @@ public class Civilian : MonoBehaviour
         audioSource.Play();
         FindObjectOfType<PlayerHealth>().takePlayerDamage(damage);
         if(CivilianHealth <= 0){
+            PlayerScript.AddScore(-10);
             //death animation
             isDead = true;
         }
