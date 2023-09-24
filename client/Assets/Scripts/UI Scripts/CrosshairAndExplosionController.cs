@@ -21,7 +21,7 @@ public class CrosshairAndExplosionController : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
 
         // Convert the mouse position from screen space to world space
-        mousePos.z = 10f; // Set the z-coordinate to a value that will put the object in front of the camera
+        mousePos.z = 1f; // Set the z-coordinate to a value that will put the object in front of the camera
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
         // Move the object to the mouse position
@@ -48,5 +48,3 @@ public class CrosshairAndExplosionController : MonoBehaviour
         }
     }
 }
-
-
